@@ -7,7 +7,9 @@ import 'package:custom_lint_builder/custom_lint_builder.dart';
 
 const defaultMaxLineCount = 500;
 
+const todo = '''
 // TODO(Zoli): Args are passed here. https://github.com/invertase/dart_custom_lint/blob/f2e09661556745aac59c9a5967312d2b646e0119/packages/custom_lint/lib/src/analyzer_plugin/plugin_link.dart#L58
+    ''';
 
 /// [args] should either be `['projectRoot', '']` or `['projectRoot', '{lineCount: 123}']`
 void main(List<String> args, SendPort sendPort) {
